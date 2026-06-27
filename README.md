@@ -1,5 +1,5 @@
-# Linear Regression — Normal Equation
-A linear regression model built **from scratch in Python** using the normal equation — no gradient descent, no scikit-learn for the core model.
+# Linear Regression | Normal Equation
+A linear regression model built **from scratch in Python** using the normal equation, no gradient descent, no scikit-learn for the core model.
 
 ## What it does
 - Implements **linear regression** using the closed-form normal equation
@@ -17,7 +17,7 @@ Where:
 - `y` is the target vector
 - `θ` contains the intercept (`θ₀`) and coefficients (`θ₁, θ₂, ...`) in one shot
 
-No learning rate, no epochs — just one matrix equation.
+No learning rate, no epochs, just one matrix equation.
 
 ## Project structure
 ```
