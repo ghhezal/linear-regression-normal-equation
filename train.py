@@ -3,7 +3,7 @@ from sklearn.datasets import fetch_california_housing
 from sklearn.metrics import r2_score
 from sklearn.linear_model import LinearRegression
 
-class linearRegressionNormal:
+class LinearRegressionNormal:
 
     def __init__(self):
         self.coef_ = None
@@ -17,7 +17,7 @@ class linearRegressionNormal:
 
         A = np.linalg.inv(Xb.T @ Xb) @ Xb.T @ y
         self.intercept_ = A[0]
-        self.coef_ = A[1 :]
+        self.coef_ = A[1:]
 
     def predict(self, X):
         X = np.array(X)
@@ -25,7 +25,7 @@ class linearRegressionNormal:
         return X @ self.coef_ + self.intercept_
     
 
-reg = linearRegressionNormal()
+reg = LinearRegressionNormal()
 
 X, y = fetch_california_housing(return_X_y=True)
 
