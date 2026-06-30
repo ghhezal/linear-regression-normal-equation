@@ -49,3 +49,7 @@ Both land on the same score, which makes sense — the normal equation has one u
 - Understood why a bias column of 1s needs to be added to `X` to solve for the intercept in the same matrix operation
 - Validated correctness by comparing against scikit-learn's implementation rather than just trusting the math
 - Saw firsthand why the normal equation has no hyperparameters (learning rate, epochs) — it's a direct solve, not an iterative one
+
+## Author
+
+**Amine Ghezal**
